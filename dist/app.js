@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-app.use(express.json());
+const test = 123;
 app.get("/", (req, res) => {
     res.json({
         success: true,
